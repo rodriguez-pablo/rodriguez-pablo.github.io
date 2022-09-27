@@ -1,0 +1,130 @@
+/* Estilo general del sitio */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+body{
+    background-color: #15151e;
+    color: aliceblue;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.logo{
+    width: 20%;
+    height: 80%;
+    padding: 10px #15151e;
+    background-color: #15151e;
+}
+
+
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+} 
+
+
+
+/* Estilos aplicados en el index */
+
+.fotoPresentacion{
+    width: 90%;
+    height: 90%;
+} 
+
+.bienvenida{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 10px;
+}
+
+
+/* Estilos aplicados en Temporada 2022 */
+
+.pilotos{
+    grid-area: pilotos;
+    padding: 10%;
+    margin: 10px;
+    border: 2px solid;
+}
+
+.escuderias{
+    grid-area: escuderias;
+    padding: 10%;
+    margin: 10px;
+    border: 2px solid;
+}
+
+.tituloPilotos{
+    grid-area: tituloP;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.tituloEscuderias{
+    grid-area: tituloE;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.tablas{
+    display: grid;
+    grid-template-areas: 
+    'tituloP tituloE'
+    'pilotos escuderias';
+}
+
+/* Estilos aplicados en Pilotos */
+
+.containerFlex{
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    justify-content: space-between;
+
+}
+
+.colorTextCard{
+    color: black;
+}
+
+
+/* Estilos aplicados en circuitos */
+
+
+
+
+.circuito{
+    /* grid-area: circuito; */
+    width: 90%;
+    height: 90%;
+    background-color: white;
+}
+
+.datosDeCircuito{
+    text-align: center;
+}
+
+.gridsCircuitos{
+    display: grid;
+    /* grid-template-areas:
+    'circuito datos'
+    'circuito datos'
+    'circuito datos'
+    'circuito datos'
+    'circuito datos'; */
+    grid-template-columns: 50% 50%;
+}
+
+
+
+/* Estilos aplicaados en temporadas anteriores */
