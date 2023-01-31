@@ -1,0 +1,3 @@
+nombre: tim peck
+mail: tim.peck@example.com
+celular: (440) 956-0395

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="./estilos.css">
+</head>
+<body>
+    
+    <header>
+        <div class="fotoPresentacionContainer">
+            <img class="fotoPresentacion" src="./recursos/foto.jpg" alt="Tim Peck">
+        </div>
+        
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#" style="color: aliceblue;">Tim Peck</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Educacion</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Habilidades</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Experiencia
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Ticmas</a></li>
+                                <li><a class="dropdown-item" href="#">Arcor</a></li>
+                                <li><a class="dropdown-item" href="#">Carrefour</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="habilidades-container">
+            <div class="habilidades">
+                <h2><img src="./recursos/libros.png" alt=""> EDUCACION</h2>
+                <p class="titulo">Titulo: Ingeniero en Computacion</p>
+                <p class="universidad">Universidad: Universidad Nacional de la Plata</p>
+            </div>
+            
+            <div class="habilidades">
+                <h2><img src="./recursos/habilidades.png" alt=""> HABILIDADES</h2>
+                <p>Ingles: Nivel B1</p>
+                <p>Conocimientos en Frond-End: HTML5, CSS, JavaScript y React</p>
+                <p>Conocimientos en Back-End: MongoDB y SQL Server</p>
+            </div>
+        </div>
+
+        <h2 class="experiencia"><img src="./recursos/experiencia.png" alt=""> EXPERIENCIA</h2>
+        <div class="card-container">
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Ticmas</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nesciunt laborum tempore eligendi ipsam labore blanditiis suscipit vel illo maiores ullam, quaerat ex quia provident velit aliquid iure quae soluta.</p>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Arcor</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nesciunt laborum tempore eligendi ipsam labore blanditiis suscipit vel illo maiores ullam, quaerat ex quia provident velit aliquid iure quae soluta.</p>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Carrefour</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nesciunt laborum tempore eligendi ipsam labore blanditiis suscipit vel illo maiores ullam, quaerat ex quia provident velit aliquid iure quae soluta.</p>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="contacto-container">
+            <div class="contacto">
+                <img src="./recursos/mail.gif" alt="">
+                <p>
+                    mail: tim.peck@example.com
+                </p>
+            </div>
+            <div class="contacto">
+                <img src="./recursos/celular.gif" alt="">
+                <p>
+                    celular: (440) 956-0395
+                </p>
+            </div>
+            
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
